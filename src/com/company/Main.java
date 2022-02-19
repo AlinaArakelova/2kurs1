@@ -22,9 +22,6 @@ public class Main {
         Customer customer = createFirstCustomer();
         customer.findProductOnMarket(market, "Алина", "Аракелова");
         customer.info();
-
-
-
     }
     private static Customer createFirstCustomer() {
         Product firstProduct = new Product();
